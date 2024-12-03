@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/nav_dias"
+        android:title="@string/dias"
+        android:icon="@drawable/ic_dias"/>
+
+    <item
+        android:id="@+id/nav_temp"
+        android:title="@string/temperatura"
+        android:icon="@drawable/ic_temp"/>
+
+    <item
+        android:id="@+id/nav_humedad"
+        android:title="@string/humedad"
+        android:icon="@drawable/ic_humedad"/>
+
+    <item
+        android:id="@+id/nav_user"
+        android:title="@string/usuario"
+        android:icon="@drawable/ic_person"/>
+
+</menu>

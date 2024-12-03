@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "767633365261",
+    "project_id": "loginincubar",
+    "storage_bucket": "loginincubar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767633365261:android:68f958087c6cc43387f844",
+        "android_client_info": {
+          "package_name": "com.example.appincubar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANWDHm_mcnaGg5KHLe0bC7mxffhIOxWD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767633365261:android:a42e69f6565442c787f844",
+        "android_client_info": {
+          "package_name": "com.example.keonda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANWDHm_mcnaGg5KHLe0bC7mxffhIOxWD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

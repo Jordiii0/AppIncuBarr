@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.PersonFragment"
+    android:paddingHorizontal="10dp"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usuarioo"
+            android:fontFamily="@font/didacticgothic"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cerrar_sesi_n"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:backgroundTint="#F2F2F2"
+            android:fontFamily="@font/didacticgothic"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="100dp"
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCambiarClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/didacticgothic"
+            android:text="@string/cambiar_contrase_a"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#F2F2F2"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="100dp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CambiarPassActivity"
+    android:paddingHorizontal="10dp"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/incubar"
+        android:textStyle="bold"
+        android:fontFamily="@font/didacticgothic"
+        android:textSize="50sp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="@font/didacticgothic"
+        android:text="@string/iniciar_sesi_n"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginHorizontal="25dp"
+        android:hint="@string/correo_electr_nico"
+        android:textColorHint="@color/white"
+        app:boxBackgroundColor="@color/fondologin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:startIconDrawable="@drawable/ic_email"
+        app:boxCornerRadiusTopStart="16dp"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxCornerRadiusBottomEnd="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmail"
+            android:paddingStart="50dp"
+            android:paddingVertical="25dp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/didacticgothic"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="25dp"
+        android:hint="@string/contrase_a"
+        app:boxBackgroundColor="@color/fondologin"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tilEmail"
+        app:startIconDrawable="@drawable/ic_pass"
+        app:endIconTint="@color/white"
+        app:endIconMode="password_toggle"
+        app:boxCornerRadiusTopStart="16dp"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxCornerRadiusBottomEnd="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:paddingStart="50dp"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:paddingVertical="25dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="@font/didacticgothic"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:id="@+id/btnLogin"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar_sesi_n"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/didacticgothic"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        android:backgroundTint="#F2F2F2"
+        android:padding="15dp"
+        android:layout_marginHorizontal="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/tilPassword"
+        android:layout_marginTop="50dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

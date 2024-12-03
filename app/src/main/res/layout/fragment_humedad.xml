@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".vistas.HumedadFragment"
+    android:paddingHorizontal="10dp"
+    android:background="@color/background">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentInsetStart="16dp"
+        android:titleTextColor="@android:color/white"
+        app:title="IncuBar"
+        app:titleTextColor="@color/black"
+        app:navigationIcon="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/didacticgothic"
+        android:paddingTop="100dp"
+        android:text="@string/humedadd"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/didacticgothic"
+        android:paddingHorizontal="15dp"
+        android:text="@string/sorry"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:paddingTop="250dp"/>
+</FrameLayout>
